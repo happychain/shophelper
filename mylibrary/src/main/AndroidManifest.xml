@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wbql.mylibrary" >
+
+    <!--<uses-permission android:name="android.permission.LOCATION_HARDWARE" />-->
+
+</manifest>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="DiagramView">
+        <!--<attr name="content" format="string|reference" />-->
+        <attr name="contentSize" format="dimension" />
+        <attr name="contentMargin" format="dimension" />
+        <attr name="contentColor" format="color" />
+
+
+        <attr name="tagViewSize" format="dimension" />//大小
+        <attr name="tagViewborderWidth" format="dimension" />//边框大小
+
+        <attr name="tagViewBorderColorUnSelected" format="color" />//未选中边框颜色
+        <attr name="tagViewInnerColorUnSelected" format="color" />//未选中内部颜色
+
+        <attr name="tagViewBorderColorSelected" format="color" />//选中边框颜色
+        <attr name="tagViewInnerColorSelected" format="color" />//选中内部颜色
+
+    </declare-styleable>
+
+    <declare-styleable name="DiagramViewFlowLayout">
+        <attr name="spaceHorizontal" format="dimension" />
+        <attr name="spaceVertical" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AbsBarChart">
+        <attr name="barTitleMargin" format="dimension" />
+        <attr name="showGraduation" format="boolean" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="gradutionTextSize" format="dimension" />
+        <attr name="gradutaionColor" format="color" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="barTextSize" format="dimension" />
+        <attr name="gradutaionLineWidth" format="dimension" />
+        <attr name="density" format="integer" />
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="barStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LineChart">
+        <attr name="lineGradutionTextSize" format="dimension" />
+        <attr name="lineGradutaionColor" format="color" />
+        <attr name="lineTitleColor" format="color" />
+        <attr name="lineTitleTextSize" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineGradutaionWidth" format="dimension" />
+        <attr name="linedensity" format="integer" />
+        <attr name="lineMin" format="float" />
+        <attr name="lineMax" format="float" />
+        <attr name="showAnimation" format="boolean" />
+        <attr name="animationduration" format="integer" />
+        <attr name="circleClickOffset" format="dimension" />
+        <attr name="allowScroll" format="boolean" />
+        <attr name="maxColnum" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="compareChart">
+        <attr name="radius" format="dimension" />
+        <attr name="progressHeight" format="dimension" />
+        <attr name="progressStrokeWidth" format="dimension" />
+        <attr name="circleStrokeWidth" format="dimension" />
+        <attr name="lineStrokeWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="moreDataColor" format="color" />
+        <attr name="lessDataColor" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="minNum" format="integer" />
+        <attr name="maxNum" format="integer" />
+        <attr name="imgRes" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DountView">
+        <attr name="spaceAngle" format="integer" />
+        <attr name="dountWidth" format="dimension" />
+        <attr name="tagTextSize" format="dimension" />
+        <attr name="tagTextColor" format="color" />
+        <attr name="tagLineColor" format="color" />
+        <attr name="tagLineWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBarView">
+        <attr name="progressColor" format="color" />
+        <attr name="progressBackColor" format="color" />
+        <attr name="progressBarHeight" format="dimension" />
+        <attr name="indicatorCircleRadius" format="dimension" />
+        <attr name="indicatorAngle" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ZLoadingView">
+        <attr name="z_type">
+            <enum name="CircleBuilder" value="0"/>
+            <enum name="ClockBuilder" value="1"/>
+            <enum name="StarBuilder" value="2"/>
+            <enum name="LeafBuilder" value="3"/>
+            <enum name="DoubleCircleBuilder" value="4"/>
+            <enum name="PacManBuilder" value="5"/>
+            <enum name="ElasticBallBuilder" value="6"/>
+            <enum name="InfectionBallBuilder" value="7"/>
+            <enum name="IntertwineBuilder" value="8"/>
+            <enum name="TextBuilder" value="9"/>
+            <enum name="SearchPathBuilder" value="10"/>
+            <enum name="RotateCircleBuilder" value="11"/>
+            <enum name="SingleCircleBuilder" value="12"/>
+
+            <enum name="SnakeCircleBuilder" value="13"/>
+            <enum name="StairsPathBuilder" value="14"/>
+            <enum name="MusicPathBuilder" value="15"/>
+            <enum name="StairsRectBuilder" value="16"/>
+            <enum name="ChartRectBuilder" value="17"/>
+        </attr>
+        <attr name="z_color" format="color"/>
+        <attr name="z_duration_percent" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="ZLoadingTextView">
+        <attr name="z_text" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="Banner">
+        <attr name="banner_loop_time" format="integer" />
+        <attr name="banner_auto_loop" format="boolean" />
+        <attr name="banner_infinite_loop" format="boolean" />
+
+        <!--RoundLinesIndicator、RectangleIndicator-->
+        <attr name="banner_indicator_height" format="dimension"/>
+        <attr name="banner_indicator_radius" format="dimension"/>
+
+        <!-- 以下为公用属性 -->
+        <attr name="banner_indicator_selected_width" format="dimension"/>
+        <!--CircleIndicator-->
+        <attr name="banner_indicator_normal_width" format="dimension"/>
+        <attr name="banner_indicator_space" format="dimension"/>
+
+        <attr name="banner_indicator_normal_color" format="reference|color"/>
+        <attr name="banner_indicator_selected_color" format="reference|color"/>
+        <attr name="banner_indicator_margin" format="dimension"/>
+        <attr name="banner_indicator_marginLeft" format="dimension"/>
+        <attr name="banner_indicator_marginTop" format="dimension"/>
+        <attr name="banner_indicator_marginRight" format="dimension"/>
+        <attr name="banner_indicator_marginBottom" format="dimension"/>
+
+        <attr name="banner_indicator_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+
+        <attr name="banner_orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="banner_radius" format="dimension"/>
+
+    </declare-styleable>
+</resources>

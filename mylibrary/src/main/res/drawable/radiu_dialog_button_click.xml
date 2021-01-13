@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="1dip"
+        android:color="@color/black" />
+    <!-- 描边 ：边框宽度与颜色 -->
+   
+        <!--   <padding
+        android:bottom="40dip"
+        android:left="40dip"
+        android:right="40dip"
+        android:top="40dip" />
+        -->
+        <corners
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp" />
+
+    
+    <!-- 主要内容的padding 文字距离上下左右的距离 -->
+    <!--
+         <corners
+        android:bottomRightRadius="5dip"
+        android:topRightRadius="5dip" />
+
+
+    -->
+   
+    <!-- 圆角的半径  也可以统一设置半径 android:radius="9dip" -->
+    <!--<gradient-->
+        <!--android:angle="90"-->
+        <!--android:endColor="@color/white"-->
+        <!--android:startColor="@color/white" />-->
+    <!-- 渐变 -->
+    <solid android:color="@color/white" />
+    <!-- 没有描边的中间部分 -->
+    <!-- solid 与  gradient 只能显示在代码最后那个 -->
+
+</shape>

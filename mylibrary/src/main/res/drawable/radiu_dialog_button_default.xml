@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="1dip"
+        android:color="@color/main_red" />
+    <!-- 描边 ：边框宽度与颜色 -->
+    <!--
+         <padding
+        android:bottom="2dip"
+        android:left="2dip"
+        android:right="2dip"
+        android:top="2dip" />
+
+
+    -->
+    <!-- 主要内容的padding 文字距离上下左右的距离 -->
+    <!--
+         <corners
+        android:bottomRightRadius="5dip"
+        android:topRightRadius="5dip" />
+
+
+
+    -->
+    <corners android:radius="23dip" />
+    <!-- 圆角的半径  也可以统一设置半径 android:radius="9dip" -->
+    <!--<gradient-->
+        <!--android:angle="45"-->
+        <!--android:endColor="@color/white"-->
+        <!--android:startColor="@color/white" />-->
+    <!-- 渐变 -->
+    <solid android:color="@color/white" />
+    <!-- 没有描边的中间部分 -->
+    <!-- solid 与  gradient 只能显示在代码最后那个 -->
+
+</shape>

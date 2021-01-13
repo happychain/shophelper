@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#aeb5bc</color>
+    <color name="black">#4A4A4A</color>
+    <color name="white">#ffffff</color>
+    <color name="transparency">#00000000</color>
+    <color name="main_red">#f02949</color>
+    <color name="dialog_bg">#bc000000</color>
+    <color name="coin_bg">#015EEA</color>
+
+    <color name="z_transparent">#00000000</color>
+    <color name="z_dialog_bg_color">#FFFFFF</color>
+
+    <color name="button_gray">#F3F4F6</color>
+
+</resources>

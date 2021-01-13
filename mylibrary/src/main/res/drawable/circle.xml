@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false"
+    >
+
+    <solid android:color="#015EEA"/>
+
+    <stroke
+        android:width="0dp"
+        android:color="@color/white"
+        />
+
+
+        <size android:width="20dp"
+    android:height="@dimen/dimen_20dp"/>
+
+    <!--&lt;!&ndash; 圆角 &ndash;&gt;-->
+    <!--<corners android:radius="200dip" />-->
+
+    <!--&lt;!&ndash; 填充 &ndash;&gt;-->
+    <!--<solid android:color="#8C69FF" />-->
+
+    <!--&lt;!&ndash; 描边 &ndash;&gt;-->
+    <!--<stroke android:width="0dip" />-->
+
+</shape>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<item android:state_pressed="true">-->
+        <!--<shape>-->
+            <!--<corners android:bottomRightRadius="5dp" />-->
+            <!--<solid android:color="#e5e5e5" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--<item android:state_pressed="false">-->
+        <!--<shape>-->
+            <!--<corners android:bottomRightRadius="5dp" />-->
+            <!--<solid android:color="#ffffff" />-->
+        <!--</shape>-->
+    <!--</item>-->
+
+<!--</selector>-->
+
